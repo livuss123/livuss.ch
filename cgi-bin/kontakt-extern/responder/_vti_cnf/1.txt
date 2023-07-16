@@ -1,0 +1,28 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TW|10 Aug 2018 12:45:40 -0000
+vti_author:SR|RecySwiss-PC\\RecySwiss
+vti_modifiedby:SR|MOBILE-PC\\Juric
+vti_nexttolasttimemodified:TW|10 Aug 2018 12:45:40 -0000
+vti_timecreated:TR|06 Mar 2016 22:08:23 -0000
+vti_extenderversion:SR|6.0.2.8161
+vti_backlinkinfo:VX|
+vti_syncwith_localhost\\d\:\\recyswiss\\web\\recyswiss_neu/d\:/recyswiss/web/recyswiss_neu:TW|08 Oct 2014 20:28:00 -0000
+vti_syncwith_recyswiss.ch\:21/www/livur.webseiter.ch:TW|07 Mar 2016 09:34:24 -0000
+vti_syncofs_recyswiss.ch\:21/www/livur.webseiter.ch:TW|06 Mar 2016 23:06:00 -0000
+vti_syncofs_recyswiss.ch\:21/www/livur.com:TW|07 Mar 2016 09:35:00 -0000
+vti_syncwith_recyswiss.ch\:21/www/livur.com:TW|07 Mar 2016 09:34:24 -0000
+vti_syncwith_www.recyswiss.ch\:21/www/livuss.com:TW|07 Mar 2016 09:34:24 -0000
+vti_syncofs_www.recyswiss.ch\:21/www/livuss.com:TW|12 Mar 2016 18:00:00 -0000
+vti_syncwith_recyswiss.ch\:21/www/livuss.com:TW|07 Mar 2016 09:34:24 -0000
+vti_syncofs_recyswiss.ch\:21/www/livuss.com:TW|08 Jun 2017 13:18:00 -0000
+vti_syncofs_sl261.web.hostpoint.ch\:21/www/livus.livuss.com:TW|25 Mar 2018 17:26:00 -0000
+vti_syncwith_sl261.web.hostpoint.ch\:21/www/livus.livuss.com:TW|25 Mar 2018 18:17:43 -0000
+vti_syncofs_sl261.web.hostpoint.ch\:21/www/livuss.ch:TW|20 Jul 2018 15:23:00 -0000
+vti_syncwith_sl261.web.hostpoint.ch\:21/www/livuss.ch:TW|25 Mar 2018 18:17:43 -0000
+vti_syncofs_remet.ch\:21/www/remet.ch:TW|10 Aug 2018 12:45:00 -0000
+vti_syncwith_remet.ch\:21/www/remet.ch:TW|10 Aug 2018 12:45:40 -0000
+vti_syncwith_sl261.web.hostpoint.ch\:21/remet.ch:TW|10 Aug 2018 12:45:40 -0000
+vti_syncofs_sl261.web.hostpoint.ch\:21/remet.ch:TW|17 Sep 2018 16:51:00 -0000
+vti_cacheddtm:TX|28 Feb 2019 10:53:55 -0000
+vti_filesize:IR|901
+vti_syncwith_localhost\\e\:\\mycom\\livus\\remet.ch/e\:/mycom/livus/remet.ch:TW|10 Aug 2018 12:45:40 -0000

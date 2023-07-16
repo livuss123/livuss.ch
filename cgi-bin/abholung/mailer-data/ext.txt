@@ -1,0 +1,13 @@
+jpg
+gif
+png
+zip
+exe
+pdf
+html
+htm
+php
+php3
+php4
+doc
+txt

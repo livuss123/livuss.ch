@@ -1,0 +1,40 @@
+ErrorDocument 401 https://www.livuss.ch/index.html
+ErrorDocument 403 https://www.livuss.ch/index.html
+ErrorDocument 404 https://www.livuss.ch/index.html
+ErrorDocument 410 https://www.livuss.ch/index.html
+ErrorDocument 301 https://www.livuss.ch/index.html
+ErrorDocument 304 https://www.livuss.ch/index.html
+ErrorDocument 500 https://www.livuss.ch/index.html
+ErrorDocument 400 https://www.livuss.ch/index.html
+
+#Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+# Redirect to domain with www.
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule .* http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+# Same for HTTPS:
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+#Caching schema
+<FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css)$">
+Header set Cache-Control "public, max-age=1928448000"
+</FilesMatch>
+
+#Compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/js
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+#@__HCP_END__@#
+# Anything after the comment above is left alone

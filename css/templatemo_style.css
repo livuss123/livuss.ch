@@ -1,0 +1,1166 @@
+body, html { overflow-x:hidden; }
+
+body {
+    background-color: #ffffff;
+    font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-size: 14px;
+	font-color:#333333;
+        font-weight: 300;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+        -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+
+/* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}*/
+.textblock{
+         box-sizing: border-box;
+         font-style: inherit;
+         font-variant: inherit;
+         font-weight: inherit;
+         font-stretch: inherit;
+         font-size: inherit;
+         line-height: 1.65em;
+         font-family: inherit;
+         vertical-align: baseline;
+         clear: both;
+         border: 0px none rgb(225, 225, 225);
+         margin: 0px;
+         padding: 0px;
+		 }
+i {
+	font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-size: 100%;
+	color:#21903d;
+    font-weight: bold;
+    font-style: normal;
+	:bold;}
+.templatemo_clear {
+        clear: both;
+}
+.cookis-footer {color:#333333; font-size: 12px; padding-left:15px; pading-right:15px;}
+.img-metallbox{
+	float: left;
+	border: 0px;
+	width: 80%;
+	border-radius: 10px;	
+	}
+.img-metall{
+	border: 0px;
+	border-radius: 10px;
+	float: left;
+	margin: 10px;	
+	width:250px;	
+	}
+.metallbox{
+	border: 1px #ff6600;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	margin-bottom: 30px;
+	}
+.abox {
+		display: inline-block;
+}
+.rahme {
+  border: 1px solid #cccccc;
+  width:100%;
+  padding: 5px;
+  margin-bottom:5px; 
+
+}
+.rahme:hover {
+background:rgba(240, 240, 240, 0.5);
+}
+.table-metallbox:hover {
+	background:rgba(0, 0, 0, 0.5);	
+}
+.logo {
+	dispay: block;
+   	width: 80% ;
+   	max-width: 200px;
+}
+.bildbox-kupfer{
+	background: url('../images/kupfer-gross.jpg') no-repeat center center fixed;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	margin: 0;
+	cursor: pointer;	
+	}
+.bildbox-kupferkabel{
+	background: url('../images/kupferkabel-gross.jpg') no-repeat center center fixed;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	margin: 0;		
+	}
+.bildbox-messing{
+	background: url('../images/messing-gross.jpg') no-repeat center center fixed;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	margin: 0;		
+	}
+.bildbox-bronze{
+	background: url('../images/bronze-gross.jpg') no-repeat center center fixed;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	margin: 0;		
+	}
+.bildbox-zinn{
+	background: url('../images/zinn-gross.jpg') no-repeat center center fixed;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	margin: 0;		
+	}
+.bildbox-kat{
+	background: url('../images/kat-1.jpg') no-repeat center center fixed;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	margin: 0;		
+	}
+.bildbox-alu{
+	background: url('../images/alu-gross.jpg') no-repeat center center fixed;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	margin: 0;		
+	}
+.bildbox-chromstahl{
+	background: url('../images/chromstahl-gross.jpg') no-repeat center center fixed;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	margin: 0;		
+	}
+.bildbox-blei{
+	background: url('../images/blei-gross.jpg') no-repeat center center fixed;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	margin: 0;		
+	}
+.bildbox-schrott{
+	background: url('../images/schrott-gross.jpg') no-repeat center center fixed;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	margin: 0;		
+	}
+.table-metallbox{
+	width: 96%;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+    margin: 2%;
+	border-radius: 10px;
+	/*margin-top: 50px;*/
+}
+.boxtitel {
+        font-size: 30px;
+        font-style: normal;
+        color: #ffffff;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+        line-height: normal;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;		
+	
+}
+.slidertitel {
+        font-size: 36px;
+        font-style: normal;
+        color: #333333;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+        line-height: normal;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;			
+}
+.table-slider{
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	margin-left:auto;
+    margin-right:auto;
+    margin-top: 10%;
+    margin-bottom:10%;
+	padding-bottom:50px;
+
+}
+.btn2 {
+  display: inline-block;
+  padding: 6px 12px ;
+  font-size: 150%;
+  width: 100%;
+  min-height: 20%;
+  max-width: 450px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 10px;
+    margin-top:auto;
+  margin-bottom: auto,
+}
+
+.btn2:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn2:hover,
+.btn2:focus {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.btn2:active,
+.btn2.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.textbild{
+	float: left;
+	border: 0px;
+	border-radius: 10px;
+	margin: 10px;
+	width:250px;
+	}
+.boxbild{
+	float: center;
+	border: 0px;
+	border-radius: 10px;
+	margin: 0px;
+	width:100%;	
+	}
+.abholungbild{
+	border: 0px;
+	width: 80%;	
+	max-width:200px;
+	border-radius: 10px;
+	float: left;
+	margin: 5px;
+	}
+/* bild index.html templatemo */
+.img-smal{
+	border: 0px;
+	width:30px;
+	float: left;
+	padding:5px 5px 0px 0px ;
+	margin-top:20px;
+	}
+.gruen{
+color: #009900;}	
+.orange{
+color: #ff6600;}
+.weiss{
+color: #ffffff;}
+.height30 {
+        height: 30px;
+        width:100%;
+}
+.icon-chat{
+	float: center;
+	border: 0px;
+	width: 35px;
+	border-radius: 5px;
+	margin: 1px;
+	}
+.div-rahmen {
+	text-align: left;
+	border: 1px solid #ff3300
+
+}
+.table-rahmen {
+	text-align: center;
+	border: 1px solid #ff3300
+}
+.background {
+		background-color: #cccccc;
+}
+.height30 {
+        height: 30px;
+        min-height: 1px;
+        width:  100%;
+}
+.height50 {
+        height: 50px;
+}
+
+.hrorange{border: 1px solid #ff3300;
+}
+.templatemo-top-bar {
+    min-height: 36px;
+    background-color: #eeeeee;
+	margin-bottom: 5px;
+}
+
+.templatemo-top-menu {
+    /*min-height:130px;*/
+    background-color:#ffffff;
+    z-index: 5000;
+    width:100%;
+}
+.active-metalle{
+ background-color:#ff6600;
+ font-color:#ffffff;
+ }
+
+.templatemo-top-menu .navbar-toggle {
+    margin-top: 38px;
+}
+
+.templatemo-top-menu .navbar-brand {
+    padding: 0;
+    margin: 0 0 0 0;
+}
+/* ------ Carousel ----- */
+#templatemo-carousel {
+   background: url('../images/kupferpreis.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0px;
+    width: 100%;
+}
+#templatemo-carousel .item {
+	height: auto;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10%;
+    margin-bottom:10%;
+}
+.templatemo-carousel {
+   background: url('../images/kupferpreis.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0px;
+    width: 100%;
+}
+.templatemo-carousel .item {
+	height: auto;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10%;
+    margin-bottom:10%;
+}
+@media (min-width : 1201px)  {
+#templatemo-carousel-katalysator .item {
+     height: auto;
+     width: 100%;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+#templatemo-carousel .item {
+    height: auto;
+     width: 60%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+.logo {
+	dispay: block;
+   	width: 120% ;
+   	max-width: 250px;
+   	
+}
+}
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+}
+
+/* ----- METALLE ------------ */
+.templatemo-carousel-kupfer {
+    background: url('../images/kupfer-gross.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0;
+    width: 100%;
+}
+
+.templatemo-carousel-kupfer .item {
+     height: auto;
+     width: 80%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+
+.templatemo-carousel-kupferkabel {
+    background: url('../images/kupferkabel-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0;
+    width: 100%;
+}
+
+.templatemo-carousel-kupferkabel .item {
+     height: auto;
+     width: 80%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+.templatemo-carousel-messing {
+    background: url('../images/messing-gross.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0;
+    width: 100%;
+}
+
+.templatemo-carousel-messing .item {
+     height: auto;
+     width: 80%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+.templatemo-carousel-zinn {
+    background: url('../images/zinn-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0;
+    width: 100%;
+}
+
+.templatemo-carousel-zinn .item {
+     height: auto;
+     width: 80%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+.templatemo-carousel-bronze {
+    background: url('../images/bronze-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0;
+    width: 100%;
+}
+
+.templatemo-carousel-bronze .item {
+     height: auto;
+     width: 80%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+.templatemo-carousel-alu {
+    background: url('../images/aluminium-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0;
+    width: 100%;
+}
+
+.templatemo-carousel-alu .item {
+     height: auto;
+     width: 80%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+.templatemo-carousel-edelstahl {
+    background: url('../images/edelstahl-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0;
+    width: 100%;
+}
+
+.templatemo-carousel-edelstahl .item {
+     height: auto;
+     width: 80%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+.templatemo-carousel-blei {
+    background: url('../images/blei-gross.jpg') repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0;
+    width: 100%;
+}
+
+.templatemo-carousel-blei .item {
+     height: auto;
+     width: 80%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+
+.templatemo-carousel-schrott {
+    background: url('../images/schrott-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0;
+    width: 100%;
+}
+
+.templatemo-carousel-schrott .item {
+     height: auto;
+     width: 80%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+.templatemo-carousel-katalysator {
+    background: url('../images/kat-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0;
+    width: 100%;
+}
+
+.templatemo-carousel-katalysator .item {
+       height: auto;
+     width: 80%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+.templatemo-carousel-millberry {
+    background: url('../images/kupferpreis.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top:0;
+    width: 100%;
+}
+.templatemo-carousel-millberry .item {
+       height: auto;
+     width: 80%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     margin-bottom:10%;
+}
+.sofort_kontakt
+{
+        font-size: 22px;
+        font-style: italic;
+        color: #cccccc;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+        line-height: normal;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+.whatsapp_kontakt
+{
+        font-size: 22px;
+        font-style: italic;
+        color: #00CC00;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+        line-height: normal;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width:991px /*767px*/) {
+.con{display:block;}
+.con1{display:none;}
+.templatemo-form-metalle {
+    margin: 0 0 0 -10px;
+}
+.templatemo-top-menu {
+    min-height:auto;
+    background-color:#ffffff;
+    z-index: 5000;
+    width:100%;
+}
+.klein-form{
+	margin-left: 10px;
+}
+.img-metallbox{
+	border: 0px;
+	width: 40%;
+	border-radius: 10px;	
+	}
+
+.templatemo-top-menu .navbar-toggle {
+    margin-top: 0px;
+}
+
+.templatemo-top-menu .navbar-brand {
+    padding: 0;
+    margin: 0 0 0 0;
+}
+#templatemo-carousel .carousel-caption {
+        padding-bottom: 0px;
+ }
+
+.nav > li > a {
+    color: #929292;
+    border-bottom: 1px solid rgb(225, 225, 225);/* #bbbbbb;*/
+}
+
+}
+
+/* ------ End of Carousel ----- */
+
+/* ------ Welcome & Slogna ------ */
+.templatemo-welcome {
+    margin-top: 30px;
+    min-height: 200px;
+    /*background-image:url(../images/bg-texture.jpg);*/
+}
+
+.templatemo-form-metalle {
+    margin: 0 0 0 40px;
+}
+.templatemo-service {
+        padding-bottom:0px;
+
+}
+.templatemo-base {
+        padding-bottom:0px;
+
+}
+#templatemo-service {
+        padding-bottom:0px;
+
+}
+.templatemo-impressum {
+        padding-bottom:0px;
+        background-position: left top;
+}
+#templatemo-copyright {
+        padding-top:10px;
+		height:50px;
+		background-image:url(../images/templatemo_carousel_bg.jpg);
+}
+.templatemo-datenschutz {
+        padding-bottom:0px;
+}
+#templatemo-offerte {
+        padding-bottom:0px;
+        background-repeat: repeat;
+        background-position: left top;
+		background-image:url(../images/templatemo_carousel_bg.jpg);
+		color:#ffffff;
+}
+.templatemo-offerte-cgi {
+        padding-bottom:0px;
+}
+#templatemo-kontakt {
+        padding-bottom:0px;
+        background-repeat: repeat;
+        background-position: left top;
+		background-image:url(../images/templatemo_carousel_bg.jpg);
+		color:#ffffff;
+}
+
+.danke{
+         color:#008000;
+         text-align:center;
+         }
+.fehler{
+         color:#FF6600;
+         text-align:center;
+         }
+.regbild{margin-left:20%;border:0px;width:50%;border-radius:15px;}
+.subheader {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #e67e22;
+}
+
+
+.btn-orange {
+    background-color: #ff6600;
+    border-bottom:2px solid #d35400;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color:#ffffff;
+}
+
+.btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
+    background-color: #ff2200;
+    color:#ffffff;
+}
+
+.btn-green {
+    background-color:#2ecc71;
+    border-bottom:2px solid #27ae60;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color:#ffffff;
+}
+
+.btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open .dropdown-toggle.btn-green {
+    background-color: #27ae60;
+    color:#ffffff;
+}
+
+.nav > li > a {
+    padding: 10px 20px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: #ff6600;
+    color:#fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #ff6600;
+    color:#fff;
+}
+
+
+.nav > li > a {
+    color: #929292;
+           /*   border-bottom: 1px solid #ff6600;*/
+}
+.navbar-default {
+    background-color:#fff;
+   border:none;
+
+}
+
+.navbar-default .navbar-nav > .active > a{
+    background-color: #ff6600;
+    color:#fff;}
+.navbar-default .navbar-nav > .active > a:hover{
+    background-color: #ff4400;
+    color:#fff;}
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #ff4400;
+    color:#fff;
+}
+
+.navbar {
+    margin-bottom: 0px;
+	margin-top:10px;
+}
+
+.templatemo-service-item-header {
+    margin-left: -10px;
+    padding: 16px 20px 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.templatemo-header-orange {
+    background-color:#ff7600;
+    min-width: 298px;
+    height: 67px;
+    color: #fff;
+
+}
+
+.team_hr {
+    border: 1px solid #fff;
+    width: 35%;
+    float: left;
+}
+
+.team_hr_left {
+    margin-right: 10px;
+    margin-left: 10px;
+    width:30%;
+}
+
+.team_hr_right {
+    margin-left: 10px;
+    margin-right:10px ;
+    width.30%;
+}
+
+.hr_gray {
+    border: 1px solid #ff7600;
+}
+.txt_darkgrey {
+    color: #333333;
+    text-align:center;
+    font-size:48px;
+    width:30%;
+
+}
+
+.txt_orange {
+    color: #e67e22;
+}
+
+.txt_slogan {
+    font-size:16px;
+    color:#929292;
+}
+.templatemo-team {
+    background: url('../images/background.png') ;
+    font-family:  'Open Sans', sans-serif;
+    min-height:590px;
+    color:#ffffff;
+
+}
+.templatemo-line-header {
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.team-inner {
+    margin-top:10px;
+}
+
+.team-inner-header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    font-size:16px;
+}
+
+.team-inner-subtext {
+    font-weight:normal;
+    font-size:12px;
+}
+
+.row_team {
+    margin-left:-50px;
+    margin-top:70px;
+}
+
+.row_team li {
+    list-style: none;
+}
+
+.templatemo-line-header span {
+    font-size: 18px;
+    float :left;
+    margin-top: 10px;
+}
+
+.head_kontakt {
+    padding-bottom:80px;
+    margin-bottom:0;
+}
+.kontakt_right{
+        float:center;
+}
+.kontakt_right img {
+        margin-right:5px;
+}
+
+.kontakt_right form {
+        padding-left:15px;
+        padding-right:15px
+}
+
+.tweet_txt {
+        border-left:3px solid #ffffff;
+       min-height:100px;
+        padding-top:5px;
+}
+
+.templatemo-footer {
+        margin-top: 10px;
+        background:url(../images/background.jpg);
+		border-bottom: 2px solid #ffffff;
+}
+
+.footer_container {
+       /* margin-top:60px;*/
+        margin-bottom:20px;
+         float: center;
+
+}
+
+.footer_bottom_content {
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 14px;
+        color:#ffbb39;
+}
+
+.metalle-gallery {
+  text-align: center;
+  padding-left:auto;
+  padding-right:auto;
+   background-color: #ffffff;
+}
+.colorbox{background:#fff;}
+.templatemo-project-gallery li {
+    list-style:none;
+    margin-bottom:25px;
+}
+.templatemo-project-gallery li img {
+  cursor: pointer;
+}
+.form-control {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-style: italic;
+}
+
+.btn_loadmore {
+        margin-top:30px;
+        margin-bottom:80px;
+}
+
+.blog_box {
+        margin-left: -12px;
+}
+
+@media (min-width:991px) and (max-width:1200px) {
+.templatemo-project-box, .project-overlay {
+	height:170px;
+	width:170px;
+}
+
+.templatemo-project-gallery {
+	margin-left: -70px;
+}
+
+.templatemo-service-item-header {
+	padding: 16px 10px 20px;
+			font-size: 85%;
+}
+
+.templatemo-header-orange {
+	min-width: 230px;
+}
+
+.team_box,  .team_box_over {
+	height:220px;
+	width:220px;
+}
+#templatemo-carousel .item {
+ height: auto;
+ width: 60%;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top: 10%;
+ margin-bottom:10%;
+}
+}
+@media (min-width:992px) {
+.con{display:none;}
+.con1{display:block;}
+.mobi{display:none;}
+.desktop{display:block;}
+
+}
+
+@media (max-width:991px) {
+.mobi{display:block;}
+.desktop{display:none;}
+
+}
+
+@media (max-width: 767px) {
+.zeichen{display:none}
+.textbild{
+	float: left;
+	border: 0px;
+	border-radius: 10px;
+	margin: 10px;
+	max-width:200px;	
+}
+.img-metall{
+	border: 0px;
+	border-radius: 10px;
+	float: left;
+	margin: 10px;	
+	max-width:200px;	
+}
+.templatemo-btn-read-more {float:right;margin-bottom :40px;
+}
+}
+
+@media (max-width: 490px) {
+#templatemo-carousel .item {height: auto;width: 100%;margin-left:auto;margin-right:auto;margin-top: 10px;margin-bottom:10px;}
+.member-thumb .thumb-overlay {padding-left: 30%;}
+.templatemo-service-item-header {font-size: 16px;padding: 23px 10px 22px;}
+.templatemo-header-orange {min-width: 0px;}
+.btn2 {font-size: 100%;}
+.logo {dispay: block;width: 50% ;max-width: 100px;}
+.templatemo-top-menu .navbar-brand {width:50%;}
+.slidertitel {
+font-size: 26px;
+font-style: normal;
+font-weight: bold;
+text-align: center;
+vertical-align: middle;
+line-height: normal;
+padding-top: 0px;
+padding-bottom: 0px;
+font-family: Arial, Helvetica, sans-serif;			
+}
+}
+
+@media ( max-width: 767px) {
+.footer_container {margin-top:0px;margin-bottom:20px;}
+.templatemo-carousel-kupferkabel .item {
+     width: 90%;
+}
+.templatemo-carousel-kupfer .item {
+     width: 90%;
+}
+.templatemo-carousel-messing .item {
+     width: 90%;
+}
+.templatemo-carousel-zinn .item {
+     width: 90%;
+}
+.templatemo-carousel-bronze .item {
+     width: 90%;
+}
+.templatemo-carousel-blei .item {
+     width: 90%;
+}
+.templatemo-carousel-alu .item {
+     width: 90%;
+}
+.templatemo-carousel-schrott .item {
+     width: 90%;
+}
+.templatemo-carousel-katalysator .item {
+     width: 90%;
+}
+.templatemo-carousel-millberry .item {
+     width: 50%;
+}
+}
+@media (min-width:768px) and ( max-width: 991px) {
+.mobi{display:none;}
+.tablet{display: none;}
+.ab{dispay:block;}
+.logo{width: 80% ;}
+.navbar-nav {/* float: left;*/margin: 10px;  }
+.navbar-footer {margin: 20px;  }
+.carousel-control {width: 10%;}
+.slider{font-size: 150%;}
+.zeichen{display:none}
+#templatemo-carousel .item {
+ height: auto;
+ width: 80%;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top: 10%;
+ margin-bottom:10%;
+}
+}
+@media  ( min-width: 768px) {
+.slidebild {margin-left:-20%;width: 120%}
+}
+@media  ( min-width: 1200px) {
+.slidebild {margin-left:20%;width: 80%}
+.slidebild-reg {margin-left:20%;width: 40%}
+.img-metallbox{border: 0px;	width: 100%;border-radius: 10px;}
+.templatemo-carousel-kupferkabel .item {
+     width: 50%;
+}
+.templatemo-carousel-kupfer .item {
+     width: 50%;
+}
+.templatemo-carousel-messing .item {
+     width: 50%;
+}
+.templatemo-carousel-zinn .item {
+     width: 50%;
+}
+.templatemo-carousel-bronze .item {
+     width: 50%;
+}
+.templatemo-carousel-blei .item {
+     width: 50%;
+}
+.templatemo-carousel-alu .item {
+     width: 50%;
+}
+.templatemo-carousel-schrott .item {
+     width: 50%;
+}
+.templatemo-carousel-katalysator .item {
+     width: 50%;
+}
+.templatemo-carousel-millberry .item {
+     width: 50%;
+}
+}

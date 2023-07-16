@@ -1,0 +1,430 @@
+* {
+    position: relative;
+}
+
+section {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.korb {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /*background: rgba(0, 0, 0, 0.1);*/
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+section .log {
+    max-width: 420px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#katform .select {
+    background: #fff url('../images/arrow-dg.png') no-repeat right center;
+    border: 2px solid #ff6600;
+    border-radius: 6px;
+    margin-bottom: 1em;
+    min-width: 300px;
+    overflow: hidden;
+}
+
+#katform select {
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 1.2em;
+    padding: 0px 2px;
+    min-width: 300px;
+    text-transform: uppercase;
+    margin: 0;
+    border: 0;
+}
+
+#numberButton {
+    padding: 8px 18px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+    background: #ff6600;
+}
+
+#katform #number {
+    background: #fff;
+    border: 2px solid #ff6600;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 1.2em;
+    padding: 8px 14px;
+    max-width: 240px;
+    text-transform: uppercase;
+    color: #333333;
+    border-radius: 6px;
+    float: left;
+    margin: 0;
+}
+
+.katBox {
+    display: inline-block;
+    width: 190px;
+    margin: 0 3px 5px 0;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    vertical-align: top;
+    font-size: 1.2em;
+}
+
+.katBox img {
+    max-width: 190px;
+    height: auto;
+    margin-bottom: 0.5em
+}
+
+.katBox-log {
+    float: center;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 3px 5px 0;
+    color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    vertical-align: top;
+    font-size: 1.2em;
+}
+
+.katBox-log img {
+    max-width: 120%;
+    height: auto;
+    margin-bottom: 0.5em
+}
+
+.priceLabel {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    font-size: 1.4em;
+    font-family: boss, 'arial black';
+    background: #fff;
+    padding: 3px 8px;
+    color: #000;
+}
+
+#catalog {
+    margin: auto;
+}
+
+#catalog-log {
+    margin: auto;
+}
+
+.right {
+    float: right;
+    margin-right: 10px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.suchetitel {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.kattitel {
+    color: #ff6600;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.korbbild {
+    max-width: 50px;
+    margin-left: 0px;
+}
+
+.korbicon {
+    max-width: 100px;
+    float: right;
+    border-radius: 5px;
+}
+
+.remove {
+    border: 0;
+    background: url(../images/remove.png);
+    background-repeat: no-repeat;
+    padding: 3px 10px;
+}
+
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.input-group {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+    width: 90px;
+}
+
+.form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 40px;
+    margin-bottom: 0;
+}
+
+.btn {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff6600;
+    border-color: #21903d;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {background-color: #05b849;color:#ffffff;}
+
+.pagination {
+    text-align: right;
+    padding-right: 10px;
+    float: right;
+}
+
+.pagination a {
+    background-color: #009ee0;
+    color: #fff;
+    padding: 2px 5px;
+    margin-left: 2px;
+    font-size: 15px;
+    width: auto;
+}
+
+.pagination a.active {
+    background-color: #ded5d5;
+    color: #000;
+    font-weight: bold;
+}
+
+.orange {
+    font-size: 150%;
+    color: #ff6600;
+}
+
+.center {
+    float: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.in-box {
+    font-size: 22px;
+    font-style: italic;
+    color: #00cc00;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-cart {
+    width: 100%;
+}
+
+.table-cart td {
+    width: 16%;
+    text-align: left;
+}
+
+.senden1 {
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    border: medium none rgb(0, 71, 128);
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #00CC00
+        /* rgb(33, 105, 160)*/
+    ;
+}
+
+.senden1:hover,
+.senden1:focus,
+.senden1:active {
+    background-color: #00CC00;
+    color: #ffffff;
+}
+
+.result {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.rahmen {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+}
+
+#templatemo-carousel-kat {
+    background: url('../images/kat-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 0px;
+    width: 100%;
+}
+
+#templatemo-carousel-kat .item {
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table-slider-kat {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+
+.pagination a {
+
+    color: #999999;
+
+}
+contact_chat {
+    position: fixed;
+    bottom: 100px;
+    width: auto;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+}
+#contact-button-chat {
+    float: right;
+    height: 70px;
+    background-color: #3FBF3F;
+    padding: 5px 10px 10px 10px;
+    width: auto;
+    overflow: hidden;
+    margin-right: 5px;
+}
+contact {
+    position: fixed;
+    bottom: 30px;
+    width: auto;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+}
+
+
+#contact-button-inner {
+    float: right;
+    height: 50px;
+    background-color: #3FBF3F;
+    padding: 5px 10px 10px 10px;
+    width: auto;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.extended {
+    display: inline-block;
+	color:#ffffff;
+	font-weight:150%;
+
+}
+
+@media screen and (min-width: 767px) {
+    #numberButton {
+        padding: 9px 16px;
+        float: left;
+        margin-left: 25px;
+        margin-top: 0px;
+        background: #ff6600;
+    }
+
+    #katform #number {
+        background: #fff;
+        border: 2px solid #ff6600;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        font-size: 1.2em;
+        padding: 5px 10px;
+        max-width: 300px;
+        text-transform: uppercase;
+        color: #333333;
+        border-radius: 6px;
+        float: left;
+        margin: 0;
+    }
+
+    .table-slider-kat {
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+}

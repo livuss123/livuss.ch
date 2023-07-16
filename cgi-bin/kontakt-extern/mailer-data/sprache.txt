@@ -1,0 +1,29 @@
+#
+# Hinweis bei Zeichen wie @, $, " oder auch % muss ein \ vorgesetzt werden z.B.: \@
+#
+$txt{'0'} = "Die Daten in der &Uuml;bertragung sind gr&ouml;sser als das eingestellte Limit.";
+$txt{'1'} = "Sendmail nicht gefunden.";
+$txt{'2'} = "Das unerlaubte Wort __ee__ ist im Text enthalten.";
+$txt{'3'} = "Der Datei-Anhang hat die maximale Gr&ouml;sse wurde &uuml;berschritten.";
+$txt{'4'} = "Das Datei-Format \"__ext__\" als Anhang ist nicht erlaubt.";
+$txt{'5'} = "Das Feld \"__1__\" wurde nicht ausgef&uuml;llt.";
+$txt{'6'} = "Das Feld \"__1__\" wurde nicht korrekt ausgef&uuml;llt. In diesem Feld d&uuml;rfen nur Zahlen vorkommen.";
+$txt{'7'} = "Das Feld \"__1__\" wurde nicht korrekt ausgef&uuml;llt. In diesem Feld d&uuml;rfen nur Buchstaben vorkommen.";
+$txt{'8'} = "Das Feld \"__1__\" wurde nicht korrekt ausgef&uuml;llt. In diesem Feld d&uuml;rfen nur Buchstaben und Zahlen vorkommen.";
+$txt{'9'} = "Das Feld \"__1__\" wurde nicht korrekt ausgef&uuml;llt. In diesem Feld d&uuml;rfen nur Buchstaben, Leerzeichen und Zahlen vorkommen.";
+$txt{'10'} = "Diese E-Mailadresse(TO) ist nicht zugelassen.";
+$txt{'11'} = "Diese E-Mailadresse(CC) ist nicht zugelassen.";
+$txt{'12'} = "Diese E-Mailadresse(BCC) ist nicht zugelassen.";
+$txt{'13'} = "Kein Betreff eingegeben.";
+$txt{'14'} = "Im Feld \"__1__\" wurde keine korrekte E-Mailadresse eingegeben.";
+$txt{'15'} = "Die E-Mailadresse \"__1__\" wurde gesperrt.";
+$txt{'16'} = "Das Feld \"__1__\" enthielt kein Leerzeichen und wurde somit nicht korrekt ausgef&uuml;llt.";
+$txt{'17'} = "Im Feld \"__1__\" wurde keine korrekte Webseite eingegeben.";
+$txt{'18'} = "Die E-Mailadresse(Empf&auml;nger) ist inkorrekt.";
+$txt{'19'} = "E-Mailadresse(Absender) ist inkorrekt.";
+$txt{'20'} = "Sie k&ouml;nnen erst in __floodzeit__ Sekunden wieder eine Nachricht versenden.";
+$txt{'21'} = "Unerlaubter Zugriff !";
+$txt{'22'} = "Can't open Sendmail!";
+$txt{'23'} = "Sie k&ouml;nnen erst in __floodzeit__ Minuten wieder eine Nachricht versenden.";
+$txt{'24'} = "Sie k&ouml;nnen erst in __floodzeit__ Stunden wieder eine Nachricht versenden.";
+1;

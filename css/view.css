@@ -1,0 +1,16 @@
+html {
+  height: auto;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 0;
+}
+
+
+
+#target {
+  background-color: transparent;
+  display: inline-block;
+  margin: 0;
+  padding: 4em 3em;
+  position: relative;
+}

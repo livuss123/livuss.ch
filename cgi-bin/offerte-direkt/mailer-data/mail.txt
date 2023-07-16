@@ -1,0 +1,3 @@
+Allgemein=info@livuss.ch
+Service=service@livuss.ch
+Doppelt=test@domain.de,zweite@domain.de

@@ -1,0 +1,20 @@
+<_subject> fuer <_name>
+========================
+An:         <_to>
+Von:        <_from>
+Telefon-Nummer: <_telefon>
+
+PÖRSENLICHE DATEN
+=================
+Firma: <_name>
+Metallschrott: <_metallschrott>
+Menge in kg: <_menge>
+Firma-Adresse: <_adresse>
+PLZ/Ort: <_plzort>
+Land: Schweiz
+
+Kommentar: <_beschreibung>
+Dokumente: <_file-upload-1>
+==================================
+Es wurde übermittelt am <_thisday>, <_mday> <_thismonth>, <_year> um <_hour>:<_min>:<_sec>
+Dies ist eine generierte E-Mail von dem Livuss.ch (<_info><_info2>)
