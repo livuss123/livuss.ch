@@ -365,8 +365,8 @@ color: #ffffff;}
     width: 100%;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 10%;
-    margin-bottom:10%;
+    margin-top: 50px;
+    margin-bottom:50px;
 }
 @media (min-width : 1201px)  {
 #templatemo-carousel-katalysator .item {
@@ -380,8 +380,8 @@ color: #ffffff;}
      width: 60%;
      margin-left:auto;
      margin-right:auto;
-     margin-top: 10%;
-     margin-bottom:10%;
+     margin-top: 100px;
+     margin-bottom:100px;
 }
 .logo {
 	dispay: block;
