@@ -1,14 +1,14 @@
-<_subject> für <_name>
+<_subject> fÃ¼r <_name>
 ========================
 An:         <_to>
 Von:        <_from>
 
-PÖRSENLICHE DATEN
+PÃ–RSENLICHE DATEN
 =================
 Name/Firma: <_name>
 Telefon: <_telefon>
 Kommentar: <_kommentar>
 Tema: <_services>
 ==================================
-Es wurde übermittelt am <_thisday>, <_mday> <_thismonth>, <_year> um <_hour>:<_min>:<_sec>
+Es wurde Ã¼bermittelt am <_thisday>, <_mday> <_thismonth>, <_year> um <_hour>:<_min>:<_sec>
 Dies ist eine generierte E-Mail von dem kupferpreise.ch(Kontakt)
