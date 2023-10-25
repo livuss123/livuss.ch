@@ -226,7 +226,7 @@ function FrontPage_Form1_Validator(theForm)
     theForm.telefon.focus();
     return (false);
   }
-    if(grecaptcha.getResponse(0) == "") {
+    if (grecaptcha.getResponse(0) == "") {
 		alert("Bitte ReCaptcha best&auml;tigen"); return false;
 	}
 
@@ -262,7 +262,6 @@ function FrontPage_Form1_Validator(theForm)
                                 <span class="feldtext">
 								<!--webbot bot="Validation" s-display-name="Kommentar" i-maximum-length="500" --><textarea name="beschreibung" cols="40" rows="3" class="textarea" onfocus="if(this.value=='Bitte geben Sie zus&auml;tzliche Informationen zu Metalschrott')this.value='';">Bitte geben Sie zus&auml;tzliche Informationen zu Metalschrott</textarea></span>
                                 </p>
-
                                 <p class="p-style">
                                 <span class="text" >
                                 Fotos oder Dokument hochladen (PDF, JPG, GIF, DOC)</span><br>
