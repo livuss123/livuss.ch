@@ -29,7 +29,38 @@
 
   gtag('config', 'UA-148747320-1');
 </script>
+<style>
+  .field-container {
+      position: relative;
+  }
 
+  #result, #result-name, #commentLength, #result-adresse, #result-plzort, #result-telefon {
+      position: absolute;
+      top: 70%;
+      right: 20px;
+      transform: translateY(-50%);
+      font-size: 32px;
+      color: green;
+  }
+  select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      padding-right: 25px;
+      background: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" viewBox%3D"0 0 24 24" width%3D"18" height%3D"18" fill%3D"%23000"%3E%3Cpath d%3D"M7 10l5 5 5-5z"%3E%3C%2Fpath%3E%3Cpath d%3D"M0 0h24v24H0z" fill%3D"none"%3E%3C%2Fpath%3E%3C%2Fsvg%3E') no-repeat right center;
+      background-size: 18px 18px;
+  }
+  #result-menge::after, #result-metall::after {
+  content: '\2713'; /* Das Unicode-Zeichen fÃ¼r ein HÃ¤kchen */
+  position: absolute;
+  right: 20px; /* Abstand vom rechten Rand des Eingabefelds */
+  top: 70%; /* Zentriert vertikal */
+  transform: translateY(-50%);
+  color: green; /* Farbe des HÃ¤kchens */
+  font-size: 32px;
+}
+  
+</style>
     </head>
 
     <body>
@@ -117,7 +148,7 @@ function FrontPage_Form1_Validator(theForm)
 
   if (theForm.metallschrott.value.length > 100)
   {
-    alert("Geben Sie höchstens 100 Zeichen in das Feld \"Metallschrott\" ein.");
+    alert("Geben Sie hï¿½chstens 100 Zeichen in das Feld \"Metallschrott\" ein.");
     theForm.metallschrott.focus();
     return (false);
   }
@@ -138,7 +169,7 @@ function FrontPage_Form1_Validator(theForm)
 
   if (theForm.menge.value.length > 5)
   {
-    alert("Geben Sie höchstens 5 Zeichen in das Feld \"Menge in kg\" ein.");
+    alert("Geben Sie hï¿½chstens 5 Zeichen in das Feld \"Menge in kg\" ein.");
     theForm.menge.focus();
     return (false);
   }*/
@@ -276,15 +307,17 @@ if (theForm.telefon.value == "")
                                 <span class="text" >
                                 Metall / Schrottart*:</span>
                                 <span class="feldtext">
-								<input type="text" name="metallschrott" value="<_metallschrott>" size="40" class="feld" maxlength="100">
-								</span>
+								<input type="text" id="metall" name="metallschrott" value="<_metallschrott>" size="40" class="feld" maxlength="100"></span> 
+                <span id="result-metall"></span>
 								</p>
                                 
 								<p class="p-style">
                                 <span class="text" >
                                 Menge in kg*:</span>
                                 <span class="feldtext">
-								<input type="text" name="menge" size="40" class="feld" maxlength="5" value="<_menge>"></span></p>
+								<input type="text" id="menge" name="menge" size="40" class="feld" maxlength="5" value="<_menge>"></span>
+                  <span id="result-metall"></span
+                </p>
                                  
 								 <p class="p-style">
                                 <span class="text">
@@ -367,7 +400,84 @@ if (theForm.telefon.value == "")
                                 
                 </form>
  <!-- /FORMBOX -->             
-
+ <script>
+  function checkMetall() {
+       window.onload = function() {
+          var resultSpan = document.getElementById('result-metall');
+          resultSpan.innerHTML = '&#10003;';
+      }
+  }
+  function checkMenge() {
+              var menge = document.getElementById('menge').value;
+              var resultSpan = document.getElementById('result-menge');
+  
+              if (menge!== '') {
+                  resultSpan.innerHTML = '&#10003;';
+              } else {
+                  resultSpan.innerHTML = '';
+              }
+          }
+   function checkName() {
+              var name = document.getElementById('name').value;
+              var resultSpan = document.getElementById('result-name');
+  
+              if (name.length >= 5) {
+                  resultSpan.innerHTML = '&#10003;';
+              } else {
+                  resultSpan.innerHTML = '';
+              }
+          }
+   function checkAdresse() {
+              var adresse = document.getElementById('adresse').value;
+              var resultSpan = document.getElementById('result-adresse');
+  
+              if (adresse.length >= 7) {
+                  resultSpan.innerHTML = '&#10003;';
+              } else {
+                  resultSpan.innerHTML = '';
+              }
+          }
+   function checkPlzort() {
+              var plzort = document.getElementById('plzort').value;
+              var resultSpan = document.getElementById('result-plzort');
+  
+              if (plzort.length >= 7) {
+                  resultSpan.innerHTML = '&#10003;';
+              } else {
+                  resultSpan.innerHTML = '';
+              }
+          }
+   function checkTelefon() {
+              var telefon = document.getElementById('telefon').value;
+              var resultSpan = document.getElementById('result-telefon');
+  
+              if (telefon.length >= 10) {
+                  resultSpan.innerHTML = '&#10003;';
+              } else {
+                  resultSpan.innerHTML = '';
+              }
+          }
+      function checkComment() {
+              var comment = document.getElementById('comment').value;
+              var commentLengthSpan = document.getElementById('commentLength');
+  
+              if (comment.length >= 10) {
+                  commentLengthSpan.innerHTML = '&#10003;';
+              } else {
+                  commentLengthSpan.innerHTML = '';
+              }
+          }
+      function checkEmail() {
+              var email = document.getElementById('email').value;
+              var resultSpan = document.getElementById('result');
+  
+               if (/\S+@\S+\.\S{2,}/.test(email)) {
+                  resultSpan.innerHTML = '&#10003;';
+              } else {
+                  resultSpan.innerHTML = '';
+              }
+          }
+  </script> 
   </div>
 </div>
 </div>
