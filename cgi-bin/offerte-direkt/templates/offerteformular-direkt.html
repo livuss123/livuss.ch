@@ -306,9 +306,11 @@ if (theForm.telefon.value == "")
                                 <p class="p-style">
                                 <span class="text">
                                 Metall / Schrottart*:</span>
-                                <span class="feldtext" id="result-metall">
-								<input type="text" id="metall" name="metallschrott" value="<_metallschrott>" size="40" class="feld" maxlength="100"></span> 
-                <span id="result-metall"></span>
+                                <span class="feldtext">
+								<input type="text" id="metall" name="metallschrott" value="<_metallschrott>" size="40" class="feld" maxlength="100">
+                  <span id="result-metall"></span>
+                </span> 
+                
 								</p>
                                 
 								<p class="p-style">
@@ -401,22 +403,7 @@ if (theForm.telefon.value == "")
                 </form>
  <!-- /FORMBOX -->             
  <script>
-  function checkMetall() {
-       window.onload = function() {
-          var resultSpan = document.getElementById('result-metall');
-          resultSpan.innerHTML = '&#10003;';
-      }
-  }
-  function checkMenge() {
-              var menge = document.getElementById('menge').value;
-              var resultSpan = document.getElementById('result-menge');
   
-              if (menge!== '') {
-                  resultSpan.innerHTML = '&#10003;';
-              } else {
-                  resultSpan.innerHTML = '';
-              }
-          }
    function checkName() {
               var name = document.getElementById('name').value;
               var resultSpan = document.getElementById('result-name');
