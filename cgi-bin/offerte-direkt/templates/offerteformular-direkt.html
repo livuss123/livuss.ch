@@ -42,15 +42,7 @@
       font-size: 32px;
       color: green;
   }
-  select {
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      padding-right: 25px;
-      background: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" viewBox%3D"0 0 24 24" width%3D"18" height%3D"18" fill%3D"%23000"%3E%3Cpath d%3D"M7 10l5 5 5-5z"%3E%3C%2Fpath%3E%3Cpath d%3D"M0 0h24v24H0z" fill%3D"none"%3E%3C%2Fpath%3E%3C%2Fsvg%3E') no-repeat right center;
-      background-size: 18px 18px;
-  }
-  #result-menge::after, #result-metall::after {
+   #result-menge::after, #result-metall::after {
   content: '\2713'; /* Das Unicode-Zeichen für ein Häkchen  \2713 */
   position: absolute;
   right: 20px; /* Abstand vom rechten Rand des Eingabefelds */
@@ -303,31 +295,29 @@ if (theForm.telefon.value == "")
                         <small class="smaltext">
                         * Pflichtfelder</small></p> 
                        <div class="col-md-6">
-                                <p class="p-style">
-                                <span class="text">
-                                Metall / Schrottart*:</span>
-                                <span class="feldtext">
-								<input type="text" id="metall" name="metallschrott" value="<_metallschrott>" size="40" class="feld" maxlength="100">
-                  <span id="result-metall"></span>
-                </span> 
-                
-								</p>
+                        <p class="p-style">
+                          <span class="text">
+                          Metall / Schrottart*:</span>
+                          <span class="feldtext" id="result-metall">
+                          <input type="text" id="metall" name="metallschrott" value="<_metallschrott>" size="40" class="feld" maxlength="100">
+                          </span>
+                        </p>
                                 
-								<p class="p-style">
-                                <span class="text" >
-                                Menge in kg*:</span>
-                                <span class="feldtext" id="result-menge">
-								<input type="text" id="menge" name="menge" size="40" class="feld" maxlength="5" value="<_menge>"></span>
-                  <span id="result-menge"></span
-                </p>
+								        <p class="p-style">
+                          <span class="text" >
+                          Menge in kg*:</span>
+                          <span class="feldtext" id="result-menge">
+								          <input type="text" id="menge" name="menge" size="40" class="feld" maxlength="5" value="<_menge>"></span>
+                        </p>
                                  
-								 <p class="p-style">
-                                <span class="text">
-                                Beschreibung:</span>
-                                <span class="feldtext">
-								<!--webbot bot="Validation" s-display-name="Kommentar" i-maximum-length="500" -->
-								<textarea name="beschreibung" cols="30" rows="3" class="textarea" onfocus="if(this.value=='Bitte geben Sie zus&auml;tzliche Informationen zu Metalschrott')this.value='';">Bitte geben Sie zus&auml;tzliche Informationen zu Metalschrott</textarea></span>
-                                <span class="text"></span></p>
+								        <p class="p-style">
+                          <span class="text">
+                          Beschreibung:</span>
+                          <span class="feldtext">
+								          <!--webbot bot="Validation" s-display-name="Kommentar" i-maximum-length="500" -->
+								          <textarea name="beschreibung" id="comment" oninput="checkComment()" cols="30" rows="3" class="textarea" onfocus="if(this.value=='Bitte geben Sie zus&auml;tzliche Informationen zu Metalschrott')this.value='';">Bitte geben Sie zus&auml;tzliche Informationen zu Metalschrott</textarea>
+                          <span id="commentLength"></span></span>
+                        </p>
 
                                 <p class="p-style">
                                 <span class="text" >
@@ -363,27 +353,42 @@ if (theForm.telefon.value == "")
                                 <span class="text">
                                 Name / Firma*:</span>
                                 <span class="feldtext">
-                                <!--webbot bot="Validation" s-display-name="Vorname" b-value-required="TRUE" i-minimum-length="3" i-maximum-length="20" --><input type="text" name="name" value="Bitte Name oder Firma eingeben!" size="40" class="feld" onfocus="if(this.value=='Bitte Name oder Firma eingeben!')this.value='';" maxlength="20"></span></p>
+                                <!--webbot bot="Validation" s-display-name="Vorname" b-value-required="TRUE" i-minimum-length="3" i-maximum-length="20" -->
+                                <input type="text" id="name" oninput="checkName()" name="name" value="Bitte Name eingeben!" onfocus="if(this.value=='Bitte Name eingeben!')this.value='';" class="feld">
+                                <span id="result-name"></span>
+                              </span></p>
                                 <p class="p-style">
                                 <span class="text">
                                 Strasse/Nr.*:</span>
                                 <span class="feldtext">
-                                <!--webbot bot="Validation" s-display-name="Strasse und Nummer" b-value-required="TRUE" i-minimum-length="10" i-maximum-length="50" --><input type="text" name="adresse" value="Bitte Adresse eingeben!" size="40" class="feld" onfocus="if(this.value=='Bitte Adresse eingeben!')this.value='';" maxlength="50"></span></p>
+                                <!--webbot bot="Validation" s-display-name="Strasse und Nummer" b-value-required="TRUE" i-minimum-length="10" i-maximum-length="50" -->
+                                <input type="text" id="adresse" oninput="checkAdresse()" name="adresse" value="Bitte Adresse eingeben!" size="40" class="feld" onfocus="if(this.value=='Bitte Adresse eingeben!')this.value='';" maxlength="50">
+                                <span id="result-adresse"></span>
+                              </span></p>
                                 <p class="p-style">
                                 <span class="text">
                                 PLZ/Ort*:</span>
                                 <span class="feldtex">
-                                <!--webbot bot="Validation" s-display-name="PLZ/Ort" b-value-required="TRUE" i-minimum-length="4" i-maximum-length="20" --><input type="text" name="plzort" value="Bitte PLZ und Ort eingeben!" size="40" class="feld" onfocus="if(this.value=='Bitte PLZ und Ort eingeben!')this.value='';" maxlength="20"></span></p>
+                                <!--webbot bot="Validation" s-display-name="PLZ/Ort" b-value-required="TRUE" i-minimum-length="4" i-maximum-length="20" -->
+                                <input type="text" id="plzort" oninput="checkPlzort()" name="plzort" value="Bitte PLZ und Ort eingeben!" size="40" class="feld" onfocus="if(this.value=='Bitte PLZ und Ort eingeben!')this.value='';" maxlength="20">
+                                <span id="result-plzort"></span>
+                              </span></p>
                                 <p class="p-style">
                                 <span class="text">
                                 Telefon*</span>
                                 <span class="feldtex">
-                                <!--webbot bot="Validation" s-display-name="Telefon" b-value-required="TRUE" i-minimum-length="10" i-maximum-length="30" --><input type="text" name="telefon" value="z.B. 079 560 40 99" size="40" class="feld" onfocus="if(this.value=='z.B. 079 560 40 99')this.value='';" maxlength="15"></span></p>                               
+                                <!--webbot bot="Validation" s-display-name="Telefon" b-value-required="TRUE" i-minimum-length="10" i-maximum-length="30" -->
+                                <input type="text" id="telefon" oninput="checkTelefon()" name="telefon" value="z.B. 079 560 40 99" size="40" class="feld" onfocus="if(this.value=='z.B. 079 560 40 99')this.value='';" maxlength="15">
+                                <span id="result-telefon"></span>
+                              </span></p>                               
                                 <p class="p-style">
                                 <span class="text">
                                 Ihre E-Mail*</span>
                                 <span class="feldtext">
-								<!--webbot bot="Validation" s-display-name="Ihre E-Mail" b-value-required="TRUE" i-minimum-length="10" i-maximum-length="50" --><input type="email" name="from" value="exemple@exemple.ch" size="40" class="feld" onfocus="if(this.value=='exemple@exemple.ch')this.value='';" maxlength="50"></span></p>
+                              <!--webbot bot="Validation" s-display-name="Ihre E-Mail" b-value-required="TRUE" i-minimum-length="10" i-maximum-length="50" -->
+                              <input type="email" id="email" oninput="checkEmail()" name="from" value="exemple@exemple.ch" size="40" class="feld" onfocus="if(this.value=='exemple@exemple.ch')this.value='';" maxlength="50">
+                              <span id="result"></span>
+                            </span></p>
 								 </div>
 								 <br><hr class="hr-form desktop">
 								                                 
