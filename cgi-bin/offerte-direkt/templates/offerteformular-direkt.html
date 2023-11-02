@@ -51,7 +51,7 @@
       background-size: 18px 18px;
   }
   #result-menge::after, #result-metall::after {
-  content: '\2713'; /* Das Unicode-Zeichen für ein Häkchen */
+  content: '&#10003'; /* Das Unicode-Zeichen für ein Häkchen  \2713 */
   position: absolute;
   right: 20px; /* Abstand vom rechten Rand des Eingabefelds */
   top: 70%; /* Zentriert vertikal */
@@ -304,7 +304,7 @@ if (theForm.telefon.value == "")
                         * Pflichtfelder</small></p> 
                        <div class="col-md-6">
                                 <p class="p-style">
-                                <span class="text" >
+                                <span class="text">
                                 Metall / Schrottart*:</span>
                                 <span class="feldtext" id="result-metall">
 								<input type="text" id="metall" name="metallschrott" value="<_metallschrott>" size="40" class="feld" maxlength="100"></span> 
