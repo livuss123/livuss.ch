@@ -1,1 +1,0 @@
-firma|name|adresse|plz|ort|telefon|material|menge|beschreibung|from|sendenper|kommentar|datum|cc|bcc

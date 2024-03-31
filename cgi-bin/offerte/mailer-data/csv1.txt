@@ -1,4 +1,0 @@
-firma|name|adresse|plz|ort|telefon|material|menge|beschreibung|from|sendenper|kommentar|datum|cc|bcc
-Neumattstrasse 2||livuss.ch/kupferpreise/index.html/Kupfer Millberry|30|Kupfer Millberry|MP Keramik|3114|0762117577|mp.keramik3114@gmail.com|service@livuss.ch|24.03.2023, 20:37|||
-Oberglatterstrasse, 35|Ca. 2800 kg Bandstahl WN 1.4301, CriNi18-8, 2,50 x 25,60 mm und 2,50 x 29 mm, auf Paletten von max. 1000 kg. Abhlung durch Sie in 6280 Hochdorf||livuss.ch/index.html/Edelstahl|2800 |Chrom-Nickel-Stahl|Aperam Stainless |8153|0448515665|christian.schaltegger@aperam.com|service@livuss.ch|27.03.2023, 09:07|||
-Kapellenweg 11|Bitte geben Sie zusätzliche Informationen zu Metalschrott||livuss.ch/index.html/Offerte|50-100kg|Aluminium-Felgen|Hans Maurer|5722 Gränichen|0794142118|selbsanlieferung|hanmau@gmx.ch|service@livuss.ch|27.03.2023, 16:10|||
