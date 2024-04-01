@@ -17,4 +17,4 @@ jobs:
         server: ftp.sl1967.web.hostpoint.ch
         username: ${{ secrets.FTP_NAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /livuss.ch/
+        server-dir: /livuss.ch/wp-livuss/
