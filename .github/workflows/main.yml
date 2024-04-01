@@ -1,4 +1,4 @@
-on: 
+/*on: 
   push:
     branches:
       - main
@@ -14,7 +14,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.sl1967.web.hostpoint.ch
+        server: ftp.sl1967.web.hostpoint.chxxx
         username: ${{ secrets.FTP_NAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /livuss.ch/wp-livuss/
+*/
